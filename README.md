@@ -45,3 +45,7 @@ Para ver el detalle del id
 ```bash
 $ git show  9c6cf93919b00d9a0afe15de3a4f6ac6f8e99ffa
 ```
+Para cambiar la rama de master a main
+```bash
+$ git branch -M main
+```
