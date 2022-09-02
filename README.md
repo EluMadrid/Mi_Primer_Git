@@ -31,10 +31,8 @@ git status
 Para agregar los cambios a la memoria de la PC
 ```bash
 git add .
-```
-Para agregar commit (Agrega registro de los cambios)
-```bash
-$ git commit -m "Mi primer commit"
+git commit -m "Mi primer commit"
+git push origin main
 ```
 Para ver el historial de versiones
 Retorna in `id` para ver el detalle de los cambios ue se hicieron en ese commit 
@@ -48,4 +46,11 @@ $ git show  9c6cf93919b00d9a0afe15de3a4f6ac6f8e99ffa
 Para cambiar la rama de master a main
 ```bash
 $ git branch -M main
+```
+
+```bash
+$ git remote add origin https://github.com/EluMadrid/Mi_Primer_Git
+$ git remove -v
+$ git remote set-url
+$ git push origin main
 ```
